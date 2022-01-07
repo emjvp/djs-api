@@ -10,4 +10,6 @@ Method GET '/api/guests/count-by-locations': returns a list all guests counted b
 Method GET '/api/leader-djs': returns a list all djs ordered by popularity.
 
 
-You have to install composer
+- You have to install composer
+- Then You have to create a folder named json_db into the route storage/app/ and 
+  later put the guests.json file in this folder (storage/app/json_db/guests.json)
